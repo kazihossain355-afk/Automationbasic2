@@ -1,4 +1,4 @@
-let fatherAge = 35;
+let fatherAge = 50;
 let motherAge = 40;
 
 if (fatherAge < motherAge) {
