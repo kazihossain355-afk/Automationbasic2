@@ -28,7 +28,7 @@ Explanation:
 3. logNormal() uses a normal function inside setTimeout().
 4. Normal functions create their own "this", so this.name is undefined.
 5. logArrow() uses an arrow function.
-6. Arrow functions inherit "this" from the parent scope.
+6. Arrow functions use the same "this" as the parent function.
 7. Therefore this.name refers to user.name and prints "Alice".
 
 Output:
